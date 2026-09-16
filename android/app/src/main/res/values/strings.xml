@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Tablet Bridge</string>
+    <string name="waiting">Waiting for laptop…\n\nOn the laptop run:\npython3 -m tabletbridge</string>
+    <string name="connected">Connected</string>
+    <string name="mic_permission_needed">Microphone permission is required to share the mic.</string>
+</resources>

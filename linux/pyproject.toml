@@ -1,0 +1,13 @@
+[project]
+name = "tabletbridge"
+version = "0.1.0"
+description = "Use an Android tablet's mic, speaker and screen from Linux over USB (adb)"
+requires-python = ">=3.9"
+dependencies = ["mss>=9.0", "pillow>=10.0"]
+
+[project.scripts]
+tabletbridge = "tabletbridge.ui:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

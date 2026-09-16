@@ -1,0 +1,13 @@
+*.iml
+.gradle/
+.idea/
+android/local.properties
+android/build/
+android/app/build/
+android/.kotlin/
+__pycache__/
+*.pyc
+*.egg-info/
+linux/build/
+linux/dist/
+.venv/
